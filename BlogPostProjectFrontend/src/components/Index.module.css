@@ -1,0 +1,8 @@
+.imgLogo {
+    width: 8rem;
+    height: 4rem;
+    background-size: cover;
+    object-fit: cover;
+    background-color: transparent;
+
+}

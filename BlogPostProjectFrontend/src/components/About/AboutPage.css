@@ -1,0 +1,135 @@
+/* General Styling */
+.about-page {
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+  
+  /* Project Overview */
+  .project-overview {
+    margin: 40px 0;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-overview h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Features Section */
+  .features-section {
+    background-color: #e9ecef;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .features-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .features-section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .features-section li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  /* Team Section */
+  .team-section {
+    margin: 40px 0;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .cta-section h3 {
+    font-size: 2rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #fff;
+    color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section p {
+      font-size: 1rem;
+    }
+  
+    .project-overview h2,
+    .features-section h2,
+    .team-section h2 {
+      font-size: 1.8rem;
+    }
+  
+    .cta-section h3 {
+      font-size: 1.8rem;
+    }
+  
+    .cta-section p {
+      font-size: 1rem;
+    }
+  }
+  

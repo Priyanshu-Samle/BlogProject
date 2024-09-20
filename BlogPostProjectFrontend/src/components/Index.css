@@ -1,0 +1,34 @@
+ .navbar-nav{
+    gap: 3rem;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 1000px) {
+    .mainDiv {
+      width: 100%;
+    }
+  
+    .logoClass {
+      width: 50%;
+      margin-left: 2.5rem;
+    }
+  
+    .ul {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 200px) and (max-width: 999px) {
+    .navbar-nav {
+      gap: 0rem;
+    }
+  }
+
+
+  /* Login page css */
+
+  
+   

@@ -1,0 +1,170 @@
+.div{
+    width: 100%;
+    /* gap: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.containerDiv{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* General Card Styling */
+/* Flexbox container for the blog cards */
+
+.returnBlogCard{
+  width: 50%;
+}
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Individual Blog Card Styling */
+  .blog_card {
+    width: 90%;
+    /* height: 23rem; */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    /* width: calc(33.333% - 20px); 3 cards per row with 20px gap */
+    margin-bottom: 20px;
+  }
+  
+  .blog_card:hover {
+    transform: scale(1.02);
+  }
+  
+  .blog-card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .blog-card-body {
+    /* width: 100%; */
+    /* padding: 15px; */
+
+  }
+  
+  .blog-card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .blog-card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .read-more-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .read-more-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .full-content {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .read-full-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-full-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Blog Card Details */
+  .blog-card-details {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    padding: 10px 20px;
+  }
+  
+  .blog-card-details li {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .blog_card {
+      /* width: calc(50% - 20px);  */
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .blog_card{
+      width: 100%; /* 1 card per row on smaller screens */
+    }
+  }
+  
+
+  .like-btn{
+    background-color: rgb(0, 157, 255);
+    color: white;
+  }
+  .like-btn:hover{
+      background-color: red;
+  }
+
+  .load-more-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .load-more-btn:hover {
+    background-color: #0056b3;
+  }
+  /* Style for the active button (when it's clickable) */
+.active-button {
+  background-color: #007bff; /* Default color */
+  color: white;
+  cursor: pointer;
+}
+
+/* Style for the disabled button (when it's not clickable) */
+.disabled-button {
+  background-color: #ccc; /* Gray color when disabled */
+  color: #666; /* Lighter text color */
+  cursor: not-allowed;
+}
+
+
